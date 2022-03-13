@@ -10,3 +10,10 @@ where remote_URL is the link to the repository where you want your code to be st
 Push your code by running the following command:
 
 git push origin master
+
+head commit
+In Git, the commit you are currently on is known as the HEAD commit. In many cases, the most recently made commit is the HEAD commit.
+
+To see the HEAD commit, enter:
+
+git show HEAD
