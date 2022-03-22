@@ -1,0 +1,18 @@
+$ cat deserts.txt
+Arabian Desert
+Arctic Desert
+Caspian Sea
+Gobi Desert
+Great Basic Desert
+Great Bear Lake
+Kalahari Desert
+Lake Baikal
+Lake Malawi
+Lake Michigan
+Lake Nicaragua
+Lake Superior 
+Lake Taganyika
+Lake Titicaca
+Lake Victoria
+Sahara Desert
+Syrian Desert
