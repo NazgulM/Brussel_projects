@@ -40,20 +40,20 @@ To get commits SHA from your history, you have to use the “git log” with the
 
 $ git log --oneline --graph
 
-* 9127753 (HEAD -> master) Commit 3
-* f2fcb99 Commit 2
-* cab6e1b (origin/master) master : initial commit
-To create a new Git branch from the second commit (f2fcb99), you would run the following command
+- 9127753 (HEAD -> master) Commit 3
+- f2fcb99 Commit 2
+- cab6e1b (origin/master) master : initial commit
+  To create a new Git branch from the second commit (f2fcb99), you would run the following command
 
 $ git checkout -b feature f2fcb99
-Switched to a new branch named 'feature' 
+Switched to a new branch named 'feature'
 Using the “git log” command, you can verify that your branch was created from the second commit of your history.
 
 $ git log --oneline --graph
 
-* f2fcb99 (HEAD -> feature) Commit 2
-* cab6e1b (origin/master) master : initial commit
-Awesome, you have successfully created a new Git branch from a specific commit!
+- f2fcb99 (HEAD -> feature) Commit 2
+- cab6e1b (origin/master) master : initial commit
+  Awesome, you have successfully created a new Git branch from a specific commit!
 
 Create Git Branch from Tag
 In previous tutorials, we have seen that Git tags are pretty useful : they can be use as reference points in your development.
