@@ -8,11 +8,13 @@
     h1, h2, h3 {
         font-family: 'Marmelad', sans-serif;
         color: #404042;
+        margin: 0 0 0 20px;
     }
 
     p  {
         opacity: .7;
         color: #404042;
+        margin: 10px 10px 10px 10px;
     }
     .container {
         width: 800px;
@@ -139,6 +141,7 @@ color: white;
     }
 
 
+
     a:hover {
         color: #CE2FAE;
     }
@@ -149,6 +152,36 @@ color: white;
         grid-gap: 16px;
     }
 
+.one {
+  background: pink;
+  border: 3px solid blue;
+  height: 60px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  display: flex;
+  padding: 10px;
+}
+
+.two {
+  background: lightblue;
+  border: 3px solid purple;
+  margin-bottom: 0px;
+  width: 55%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.three {
+  background: peachpuff;
+  border: 3px solid brown;
+  width: 200px;
+  height: 80px;
+  padding: 32px;
+  margin-left: auto;
+  
+}
     @media (max-width: 800px) {
         .cards {
         grid-template-columns: 1fr;
